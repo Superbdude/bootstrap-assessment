@@ -1,0 +1,26 @@
+
+.navbar-brand {
+    font-size: 2rem !important; 
+    font-weight: bold;
+    color: #fff;
+}
+.hero {
+    position: relative;
+    z-index: 1;
+    background-image: url('resturant-hero-background.jpeg');
+    height: 300px;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
